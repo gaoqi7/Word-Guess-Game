@@ -1,0 +1,27 @@
+function charInputA() {userInput = document.getElementById("A").value.toLowerCase();charFlip(userInput);}
+function charInputB() {userInput = document.getElementById("B").value.toLowerCase();charFlip(userInput);}
+function charInputC() {userInput = document.getElementById("C").value.toLowerCase();charFlip(userInput);}
+function charInputD() {userInput = document.getElementById("D").value.toLowerCase();charFlip(userInput);}
+function charInputE() {userInput = document.getElementById("E").value.toLowerCase();charFlip(userInput);}
+function charInputF() {userInput = document.getElementById("F").value.toLowerCase();charFlip(userInput);}
+function charInputG() {userInput = document.getElementById("G").value.toLowerCase();charFlip(userInput);}
+function charInputH() {userInput = document.getElementById("H").value.toLowerCase();charFlip(userInput);}
+function charInputI() {userInput = document.getElementById("I").value.toLowerCase();charFlip(userInput);}
+function charInputJ() {userInput = document.getElementById("J").value.toLowerCase();charFlip(userInput);}
+function charInputK() {userInput = document.getElementById("K").value.toLowerCase();charFlip(userInput);}
+function charInputL() {userInput = document.getElementById("L").value.toLowerCase();charFlip(userInput);}
+function charInputM() {userInput = document.getElementById("M").value.toLowerCase();charFlip(userInput);}
+function charInputN() {userInput = document.getElementById("N").value.toLowerCase();charFlip(userInput);}
+function charInputO() {userInput = document.getElementById("O").value.toLowerCase();charFlip(userInput);}
+function charInputP() {userInput = document.getElementById("P").value.toLowerCase();charFlip(userInput);}
+function charInputQ() {userInput = document.getElementById("Q").value.toLowerCase();charFlip(userInput);}
+function charInputR() {userInput = document.getElementById("R").value.toLowerCase();charFlip(userInput);}
+function charInputS() {userInput = document.getElementById("S").value.toLowerCase();charFlip(userInput);}
+function charInputT() {userInput = document.getElementById("T").value.toLowerCase();charFlip(userInput);}
+function charInputU() {userInput = document.getElementById("U").value.toLowerCase();charFlip(userInput);}
+function charInputW() {userInput = document.getElementById("W").value.toLowerCase();charFlip(userInput);}
+function charInputV() {userInput = document.getElementById("V").value.toLowerCase();charFlip(userInput);}
+function charInputX() {userInput = document.getElementById("X").value.toLowerCase();charFlip(userInput);}
+function charInputY() {userInput = document.getElementById("Y").value.toLowerCase();charFlip(userInput);}
+function charInputZ() {userInput = document.getElementById("Z").value.toLowerCase();charFlip(userInput);}
+    
