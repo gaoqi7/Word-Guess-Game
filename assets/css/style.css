@@ -20,6 +20,7 @@ input {
     text-align: center;
     font-size: 30px !important;
     font-family: monospace !important;
-    background-color: bisque;
+    background-color:black;
     letter-spacing: 15px;
+    color:#ffffff;
 }

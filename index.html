@@ -11,31 +11,22 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body>
-
+    
     <div class="container justify-content-between">
-
+        
         <div class="row" >
             <div class="col-12">
-                    <div class="jumbotron">
-                            <h1 class="display-4">HANGMAN</h1>
-                            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                            <hr class="my-4">
-                            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-                          </div>
+                <div class="jumbotron">
+                    <h1 class="display-4">HANGMAN</h1>
+                    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                    <hr class="my-4">
+                    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                </div>
             </div>
         </div>
-
-        <div class="row">
-            <div class="col-12">
-                <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="username" aria-label="username" aria-describedby="button-addon2">
-                        <div class="input-group-append">
-                          <button class="btn btn-outline-secondary" type="button" id="button-addon2">START</button>
-                        </div>
-                </div>
-            </div> 
-        </div>
-
+        
+        
+        
         <div class="row">
             <div class="col-12">
                 <input id ="userNameInput">
@@ -44,55 +35,55 @@
                 <button onclick="finalSubmit()">Confirm</button>
             </div>
         </div>
-    
-
+        
+        
         <div class="virtualKeyboard">
             <div class="row ml-0">
                 <div class="col-12">
                     <div class="row mb-2">
-                            <!-- <div class="btn-group btn-group-lg" role="group" aria-label="..."> -->
-                                <div class="col-1">
-                                    <div> </div>
-                                </div>
-                                <div class="col-1">
-                                    <button id = "Q" class="btn btn-dark btn-lg" type="button" value="Q" onclick="charInputQ()">Q</button>
-                                </div>
-                                <div class="col-1">
-                                    <button id = "W" class="btn btn-dark btn-lg" type="button" value="W" onclick="charInputW()">W</button>
-                                </div>
-                                <div class="col-1">
-                                    <button id = "E" class="btn btn-dark btn-lg" type="button" value="E" onclick="charInputE()">E</button>
-                                </div>
-                                <div class="col-1">
-                                    <button id = "R" class="btn btn-dark btn-lg" type="button" value="R" onclick="charInputR()">R</button>
-                                </div>
-                                <div class="col-1">
-                                    <button id = "T" class="btn btn-dark btn-lg" type="button" value="T" onclick="charInputT()">T</button>
-                                </div>
-                                <div class="col-1">
-                                    <button id = "Y" class="btn btn-dark btn-lg" type="button" value="Y" onclick="charInputY()">Y</button>
-                                </div>
-                                <div class="col-1">
-                                    <button id = "U" class="btn btn-dark btn-lg" type="button" value="U" onclick="charInputU()">U</button>
-                                </div>
-                                <div class="col-1">
-                                    <button id = "I" class="btn btn-dark btn-lg" type="button" value="I" onclick="charInputI()">I</button>
-                                </div>
-                                <div class="col-1">
-                                    <button id = "O" class="btn btn-dark btn-lg" type="button" value="O" onclick="charInputO()">O</button>
-                                </div>
-                                <div class="col-1">
-                                    <button id = "P" class="btn btn-dark btn-lg" type="button" value="P" onclick="charInputP()">P</button>
-                                </div>
-                                <div class="col-1">
-                                    <div> </div>
-                                </div>
+                        <!-- <div class="btn-group btn-group-lg" role="group" aria-label="..."> -->
+                            <div class="col-1">
+                                <div> </div>
+                            </div>
+                            <div class="col-1">
+                                <button id = "Q" class="btn btn-dark btn-lg" type="button" value="Q" onclick="charInputQ()">Q</button>
+                            </div>
+                            <div class="col-1">
+                                <button id = "W" class="btn btn-dark btn-lg" type="button" value="W" onclick="charInputW()">W</button>
+                            </div>
+                            <div class="col-1">
+                                <button id = "E" class="btn btn-dark btn-lg" type="button" value="E" onclick="charInputE()">E</button>
+                            </div>
+                            <div class="col-1">
+                                <button id = "R" class="btn btn-dark btn-lg" type="button" value="R" onclick="charInputR()">R</button>
+                            </div>
+                            <div class="col-1">
+                                <button id = "T" class="btn btn-dark btn-lg" type="button" value="T" onclick="charInputT()">T</button>
+                            </div>
+                            <div class="col-1">
+                                <button id = "Y" class="btn btn-dark btn-lg" type="button" value="Y" onclick="charInputY()">Y</button>
+                            </div>
+                            <div class="col-1">
+                                <button id = "U" class="btn btn-dark btn-lg" type="button" value="U" onclick="charInputU()">U</button>
+                            </div>
+                            <div class="col-1">
+                                <button id = "I" class="btn btn-dark btn-lg" type="button" value="I" onclick="charInputI()">I</button>
+                            </div>
+                            <div class="col-1">
+                                <button id = "O" class="btn btn-dark btn-lg" type="button" value="O" onclick="charInputO()">O</button>
+                            </div>
+                            <div class="col-1">
+                                <button id = "P" class="btn btn-dark btn-lg" type="button" value="P" onclick="charInputP()">P</button>
+                            </div>
+                            <div class="col-1">
+                                <div> </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            <div class="row ml-3">
-                <div class="col-12">
-                    <div class="row mb-2">
+                <div class="row ml-3">
+                    <div class="col-12">
+                        <div class="row mb-2">
                             <!-- <div class="btn-group btn-group-lg ml-5" role="group" aria-label="..."> -->
                                 <div class="col-1">
                                     <div> </div>
@@ -128,55 +119,55 @@
                                     <div> </div>
                                 </div>
                                 <div class="col-1">
-                                        <div> </div>
-                                </div>
-                    </div>
-                </div>
-                </div>
-            <div class="row ml-2">
-                <div class="col-12"> 
-                    <div class="row mb-2">
-                            <!-- <div class="btn-group btn-group-lg" role="group" aria-label="..."> -->
-                                <div class="col-1">
-                                        <div> </div>
-                                    </div>
-                                <div class="col-1">
-                                        <div> </div>
-                                    </div>
-                                <div class="col-1">
-                                    <button id = "Z" class="btn btn-dark btn-lg" type="button" value="Z" onclick="charInputZ()">Z</button>
-                                </div>
-                                <div class="col-1">
-                                    <button id = "X" class="btn btn-dark btn-lg" type="button" value="X" onclick="charInputX()">X</button>
-                                </div>
-                                <div class="col-1">
-                                    <button id = "C" class="btn btn-dark btn-lg" type="button" value="C" onclick="charInputC()">C</button>
-                                </div>
-                                <div class="col-1">
-                                    <button id = "V" class="btn btn-dark btn-lg" type="button" value="V" onclick="charInputV()">V</button>
-                                </div>
-                                <div class="col-1">
-                                    <button id = "B" class="btn btn-dark btn-lg" type="button" value="B" onclick="charInputB()">B</button>
-                                </div>
-                                <div class="col-1">
-                                    <button id = "N" class="btn btn-dark btn-lg" type="button" value="N" onclick="charInputN()">N</button>
-                                </div>
-                                <div class="col-1">
-                                    <button id = "M" class="btn btn-dark btn-lg" type="button" value="M" onclick="charInputM()">M</button>
-                                </div>
-                                <div class="col-1">
-                                    <div> </div>
-                                </div>
-                                <div class="col-1">
-                                    <div> </div>
-                                </div>
-                                <div class="col-1">
                                     <div> </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                    <div class="row ml-2">
+                        <div class="col-12"> 
+                            <div class="row mb-2">
+                                <!-- <div class="btn-group btn-group-lg" role="group" aria-label="..."> -->
+                                    <div class="col-1">
+                                        <div> </div>
+                                    </div>
+                                    <div class="col-1">
+                                        <div> </div>
+                                    </div>
+                                    <div class="col-1">
+                                        <button id = "Z" class="btn btn-dark btn-lg" type="button" value="Z" onclick="charInputZ()">Z</button>
+                                    </div>
+                                    <div class="col-1">
+                                        <button id = "X" class="btn btn-dark btn-lg" type="button" value="X" onclick="charInputX()">X</button>
+                                    </div>
+                                    <div class="col-1">
+                                        <button id = "C" class="btn btn-dark btn-lg" type="button" value="C" onclick="charInputC()">C</button>
+                                    </div>
+                                    <div class="col-1">
+                                        <button id = "V" class="btn btn-dark btn-lg" type="button" value="V" onclick="charInputV()">V</button>
+                                    </div>
+                                    <div class="col-1">
+                                        <button id = "B" class="btn btn-dark btn-lg" type="button" value="B" onclick="charInputB()">B</button>
+                                    </div>
+                                    <div class="col-1">
+                                        <button id = "N" class="btn btn-dark btn-lg" type="button" value="N" onclick="charInputN()">N</button>
+                                    </div>
+                                    <div class="col-1">
+                                        <button id = "M" class="btn btn-dark btn-lg" type="button" value="M" onclick="charInputM()">M</button>
+                                    </div>
+                                    <div class="col-1">
+                                        <div> </div>
+                                    </div>
+                                    <div class="col-1">
+                                        <div> </div>
+                                    </div>
+                                    <div class="col-1">
+                                        <div> </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-        </div>
-</div>
-</body>
-</html>
+            </body>
+            </html>
