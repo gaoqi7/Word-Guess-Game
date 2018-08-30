@@ -47,8 +47,8 @@ function charFlip (char){
     if (i < Math.ceil(wordRandom.length * rate) && oriArr.join("") != wordRandom.join("") ){
         gameStart();  
     } else if ( i <= Math.ceil(wordRandom.length * rate) && oriArr.join("") === wordRandom.join("")  ) {
-        var j = 999;
-        console.log(j);
+        vKdOff();
+        
     } else {
         // alert("I know, you tried!");
         vKdOff();
