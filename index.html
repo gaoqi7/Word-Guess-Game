@@ -9,6 +9,8 @@
     <script type="text/javascript" src="assets/javascript/virtualKeyboard.js" ></script>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Waiting+for+the+Sunrise|Permanent+Marker" rel="stylesheet">
+
 </head>
 <body>
     
@@ -41,11 +43,14 @@
             <input id ="passwordInput" size="30">
         </div>
         <div>
-            <input id ="livesNumber" size="20">
+            <input id ="livesNumber" size="30">
         </div>
         <div>
-            <button id = "startButton" onclick="gameStart()" >Go Go Go</button>
+                <button id = "startButton" type="button"  onclick="gameStart()">START</button>
+            <!-- <button id = "startButton" onclick="gameStart()" >Go Go Go</button> -->
         </div>
+
+        <div id = "overlay"> </div>
         
         <div id = "virtualKeyboard">
             <div class="row ml-0">
