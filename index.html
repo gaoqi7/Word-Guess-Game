@@ -18,30 +18,39 @@
             <div class="col-12">
                 <div class="jumbotron">
                     <h1 class="display-4">HANGMAN</h1>
-                    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                    <hr class="my-4">
-                    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                    <p class="lead">The Hangman game has dark origins in 17th- and 18th-century Europe. Criminals sentenced to death by hanging would sometimes get the opportunity to play a game called "Rite of Words and Life". The executioner would choose a word and the criminal would have to guess the word letter by letter before the blanks were filled. If one were to guess the correct answer, their life would be spared. Not solving the answer would seal the criminal's fate<q></q></p>
+                    
                 </div>
             </div>
         </div>
         
         
         
-        <div class="row">
+        <!-- <div class="row locAj">
             <div class="col-12">
-                <input id ="userNameInput">
-                <button id = "userNameConfirm" onclick="gameStart()" >Enter</button>
                 <input id ="passwordInput" size="30">
-                <button onclick="finalSubmit()">Confirm</button>
             </div>
         </div>
+
+        <div class="row locAj">
+            <div class="col-12">
+                <button id = "startButton" onclick="gameStart()" >Go Go Go</button>
+            </div>
+        </div> -->
+        <div>
+            <input id ="passwordInput" size="30">
+        </div>
+        <div>
+            <input id ="livesNumber" size="20">
+        </div>
+        <div>
+            <button id = "startButton" onclick="gameStart()" >Go Go Go</button>
+        </div>
         
-        
-        <div class="virtualKeyboard">
+        <div id = "virtualKeyboard">
             <div class="row ml-0">
                 <div class="col-12">
                     <div class="row mb-2">
-                        <!-- <div class="btn-group btn-group-lg" role="group" aria-label="..."> -->
                             <div class="col-1">
                                 <div> </div>
                             </div>
@@ -81,10 +90,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="row ml-3">
+                <div class="row ml-4">
                     <div class="col-12">
                         <div class="row mb-2">
-                            <!-- <div class="btn-group btn-group-lg ml-5" role="group" aria-label="..."> -->
                                 <div class="col-1">
                                     <div> </div>
                                 </div>
