@@ -9,7 +9,7 @@ body {
 .container{
     width: 768px !important;
     margin:0 auto;
-    height:100vh !important;
+    height:768px !important;
     justify-content: center;
     text-align: center;
     
@@ -30,13 +30,14 @@ input {
     outline: none !important;
 } */
 #virtualKeyboard {
-    position: absolute;
+    position: relative;
     bottom: 0;
     justify-content: center;
     margin: 0 auto;
     margin-left:-15px;
     max-width:768px;
     visibility: hidden;
+    display: block;
 }
 
 .locAj {
@@ -45,7 +46,7 @@ input {
 }
 
 #startButton {
-    margin-top: 2em; 
+    margin-top: 5px; 
     font-family: 'Permanent Marker', cursive;
     border: none !important;
     color: #95968d;
@@ -72,11 +73,14 @@ input {
 .jumbotron {
     background-color: black !important;
     color: #95968d;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
 }
 
 .display-4 {
     font-family: 'Waiting for the Sunrise', cursive;
     font-size: 92px !important;
+    text-shadow: 2px 8px 15px red;
 }
 
 .lead {

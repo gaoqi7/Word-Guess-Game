@@ -32,6 +32,7 @@ function gameStart(){
     if (i == 0) {
         document.getElementById("passwordInput").value = "[  " + oriArr.join("") + "  ]";
         document.getElementById("livesNumber").value = "You have " + k +  " chances left!";
+        document.getElementById("startButton").textContent = "Good Luck !";
         vKdOn();
     };
     i++;
